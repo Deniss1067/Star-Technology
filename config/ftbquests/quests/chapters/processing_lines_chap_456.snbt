@@ -795,6 +795,7 @@
 				"0491A3097C6BA6AE"
 				"40A015DBF6603208"
 				"7E33A485E30B47EA"
+				"3E1CA9FFB9953F42"
 			]
 			description: ["{ftbquests.processing_lines_chap.silicon_carbide_over_bismuth_tritelluride_dust.description}"]
 			id: "22B85F7F13C66730"
@@ -1537,7 +1538,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7E99889B3427A842"]
+			dependencies: [
+				"7E99889B3427A842"
+				"6CC13BE9AD447218"
+			]
 			description: ["{ftbquests.processing_lines_chap.sterilized_growth_medium.description}"]
 			id: "01AF9486EA6DA792"
 			rewards: [{
@@ -1547,7 +1551,7 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.5d
+			size: 1.0d
 			tasks: [{
 				id: "42358BDACFD9DDF1"
 				item: {
@@ -2294,10 +2298,6 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"433B94A266536D86"
-				"05EEBCD256194C78"
-			]
 			hide_dependent_lines: true
 			id: "2C9FFC93C52399F3"
 			tasks: [{
@@ -3573,6 +3573,7 @@
 			dependencies: [
 				"33A6C9BC2B9DAD78"
 				"6A3C01534D53C73A"
+				"5BD0047E69D79476"
 			]
 			id: "4DD388D3F5455C37"
 			tasks: [{

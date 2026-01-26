@@ -14,7 +14,7 @@
 		x: 13.560000000000002d
 		y: 0.21500000000000075d
 	}]
-	order_index: 6
+	order_index: 5
 	progression_mode: "linear"
 	quest_links: [
 		{
@@ -44,8 +44,8 @@
 		{
 			id: "7F751F6B23BCF63D"
 			linked_quest: "1B6159E114BA50ED"
-			x: -5.0d
-			y: -1.0d
+			x: -1.0d
+			y: -7.0d
 		}
 		{
 			id: "79C75C36CC2FA699"
@@ -1173,7 +1173,7 @@
 		{
 			dependencies: [
 				"709EF5314988C381"
-				"7F751F6B23BCF63D"
+				"1B6159E114BA50ED"
 			]
 			description: ["{ftbquests.draconic_age.mega_abs.description}"]
 			id: "5FEC7470D01CEBDD"
@@ -1532,10 +1532,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"5A724E912A475EAB"
-				"6F50E6C2CBCF8272"
-			]
+			dependencies: ["6F50E6C2CBCF8272"]
 			description: ["{ftbquests.draconic_age.abyssal_processor_assembly.description}"]
 			id: "3AE6E85C2FC76DE9"
 			rewards: [{
@@ -1595,10 +1592,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"78777C3EE2DA5D0F"
-				"2D064F759D13FE4B"
-			]
 			description: ["{ftbquests.draconic_age.draconic_circuit_board.description}"]
 			id: "1C9396E2587051F7"
 			rewards: [{
@@ -1990,8 +1983,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["6D6C79E7CBBCC893"]
@@ -2343,8 +2336,8 @@
 				item: "kubejs:abyssal_processor"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5A724E912A475EAB"]
@@ -2354,7 +2347,7 @@
 				item: "kubejs:abyssal_processing_unit"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 8.0d
 		}
 	]
